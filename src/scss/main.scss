@@ -1,0 +1,29 @@
+$theme-colors: (
+  "primary": #ccc,
+  "secondary": #ff6a5c
+);
+
+
+$primary: #ccc;
+$secondary: #ff6a5c;
+
+$input-btn-focus-box-shadow:  none;
+$input-btn-padding-x: 0;
+$list-group-border-color: transparent;
+$list-group-item-padding-x: 25px;
+$list-group-bg: #cdcdcd;
+
+
+$web-font-path: 'https://fonts.googleapis.com/css?family=Montserrat' !default;
+@import url($web-font-path);
+
+
+// Bootstrap Sass Imports
+@import 'node_modules/bootstrap/scss/bootstrap';
+ 
+
+body {
+  font-family: "Montserrat";
+  
+  background: #888;
+}
