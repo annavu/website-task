@@ -1,0 +1,46 @@
+.section-map {
+  display: none;
+
+  #map {
+    margin: 0 auto;
+    height: 500px;
+    width: 95%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: #a239ca solid 2px;
+    box-shadow: 10px 15px 10px rgba(71, 23, 246, 0.2);
+  }
+
+  .pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+  }
+  
+  .pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  
+  #pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+  }
+  
+  #pac-input:focus {
+    border-color: #a239ca;
+  }
+  
+}
+
+.section-map--show{
+  display: block;
+}

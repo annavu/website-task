@@ -1,0 +1,336 @@
+
+.header {
+  background: linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.9)),
+  url("../img/sky.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  @media(max-width: 768px) {
+    height: auto;
+  }
+
+  .navbar {
+    background: linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.9)),
+    url("../img/sky.jpg");  
+
+
+    .navbar-brand {
+      color: #a239ca;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 18px;
+      &:hover {
+        color: #a239ca;
+        opacity: 0.8;
+      }
+    }
+
+
+    .navbar-toggler {
+      &:hover {
+        opacity: 0.8;
+      }
+
+
+      .navbar-toggler__icon {
+        width: 30px;
+        height: 3px;
+        background: #999;
+        margin: 5px 0;
+        display: block;
+      }
+
+    }
+
+
+    .nav-link, .nav-item, .dropdown-item {
+      color: #999;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .nav-link:hover, .nav-item:hover, .dropdown-item:hover {
+      color: #666;
+      background: transparent;
+    }  
+  }
+
+  .showcase__title {
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    color: #a239ca;
+    // font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+  }
+
+  .showcase__title--dark {
+    color: #4717f6;
+  }
+
+  .showcase__text {
+    font-weight: bold;
+    color: #444;
+  }
+
+
+
+  .weather {
+    color: #666;
+
+    .weather__city {
+      color: #999;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .point {
+      color: #666;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+  }
+
+
+  .title {
+    color: #b6b3b3;
+    font-size: 30px;
+    margin: 50px 0 20px 0;
+  }
+
+  .card {
+    background: transparent;
+    border: none;
+    justify-content: center;
+
+
+    .fas {
+      color: #b6b3b3;
+      font-size: 30px;
+      cursor: pointer;
+      &:hover {
+        color: #666;
+        transition: 0.5s ease-in-out;
+      }
+    }
+
+    .card__title {
+      color: #444;
+      text-transform: uppercase;
+      color: #9b2525;
+      cursor: pointer;
+      display: inline-block;
+      &:hover {
+        color: #d14141;
+        transition: 0.5s ease-in-out;
+      }
+    }
+    
+    
+    .card__text {
+      font-size: 14px;
+      color:#666;
+      font-weight: bold;
+    }
+  }
+
+  .link {
+    color: #4717f6;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 50px;
+    &:hover {
+      transform: scale(1.2);
+      transition: 0.6s ease-in-out;
+      color: #a239ca;
+    }
+  }
+
+
+
+  .team__image {
+    max-height: 285px;
+
+
+    .img-fluid {
+      box-shadow: 10px 8px 10px rgba(71,23,246,0.2);
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.05);
+        opacity: 0.8;
+        transition: 0.5s ease-in-out;
+      }
+    }
+  }
+
+
+
+  .team__text {
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+  }
+
+  .team__title {
+    color:#9b2525;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+      color: #d14141;
+      transition: 0.5s ease-in-out;
+    }
+  }
+
+
+  .team__icon {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.6;
+      transition: 0.7s;
+    }
+  }
+
+
+  .row--works {
+    border-bottom: #9b2525 solid 3px;
+    border-top: #9b2525 solid 3px;
+  }
+
+  .image--bg1 {
+    background: url('../img/portfolio14.png');
+  }
+
+  .image--bg2 {
+    background: url('../img/portfolio2.png');
+  }
+
+  .image--bg3 {
+    background: url('../img/portfolio10.png');
+  }
+
+  .image--bg4 {
+    background: url('../img/portfolio13.png');
+  }
+
+  .image--bg5 {
+    background: url('../img/portfolio4.png');
+  }
+
+  .image--bg6 {
+    background: url('../img/portfolio15.png');
+  }
+
+  .image--bg7 {
+    background: url('../img/portfolio26.png');
+  }
+
+  .image--bg8 {
+    background: url('../img/portfolio18.png');
+  }
+
+  .image--bg9 {
+    background: url('../img/portfolio9.png');
+  }
+
+  .image--bg10 {
+    background: url('../img/portfolio21.png');
+  }
+
+  .image--bg11 {
+    background: url('../img/portfolio24.png');
+  }
+
+  .image--bg12 {
+    background: url('../img/portfolio22.png');
+  }
+
+  .image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover .overlay {
+      height: 100%;
+      opacity: 0.7;
+    } 
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: #4717f6;
+      width: 100%;
+      height: 0;
+      transition: 0.5s ease-in-out;
+      &::after {
+        content: 'See more..';
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,50%);  
+      }
+    }
+
+    .overlay--active {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: #4717f6;
+      width: 100%;
+      height: 100%;
+      opacity: 0.7;
+      &::after {
+        content: 'See more..';
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,50%);  
+      }
+    }
+
+  }
+
+
+  .input {
+    border: none;
+    border-bottom: #a239ca 2px solid;
+  }
+  
+  .btn {
+    color: #a239ca;
+    background: #b6b3b3;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 10px 8px 10px rgba(71, 23, 246, 0.2);
+    &:hover {
+      opacity: 0.6;
+      transition: 0.8s;
+    }
+  }
+  
+  .socials__icon {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+      transition: 0.8s;
+    }
+  }
+}
+
