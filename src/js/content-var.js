@@ -49,7 +49,7 @@ export const teamContent = `
 <div class="row mt-1">
   <div class="team col-md-3 col-sm-6 my-3">
     <div class="team__image mb-3 m-auto">
-      <img src="img/team2.png" class="img-fluid" alt="">
+      <img src="img/t2.png" class="img-fluid" alt="">
     </div>
     <div class="team__content">
       <p class="team__title p-0 m-0 mt-3">Kate Pris</p>
@@ -62,7 +62,7 @@ export const teamContent = `
     
   <div class="team col-md-3 col-sm-6 my-3">
     <div class="team__image mb-3 m-auto">
-      <img src="img/team3.png" class="img-fluid" alt="">
+      <img src="img/t3.png" class="img-fluid" alt="">
     </div>
     <div class="team__content">
       <p class="team__title p-0 m-0 mt-3">John Warden</p>
@@ -75,7 +75,7 @@ export const teamContent = `
     
   <div class="team col-md-3 col-sm-6 my-3">
     <div class="team__image mb-3 m-auto">
-      <img src="img/team4.png" class="img-fluid" alt="">
+      <img src="img/t4.png" class="img-fluid" alt="">
     </div>
     <div class="team__content">
       <p class="team__title p-0 m-0 mt-3">Mark Smith</p>
@@ -88,7 +88,7 @@ export const teamContent = `
     
   <div class="team col-md-3 col-sm-6 my-3">
     <div class="team__image mb-3 m-auto">
-      <img src="img/team2.png" class="img-fluid" alt="">
+      <img src="img/t2.png" class="img-fluid" alt="">
     </div>
     <div class="team__content">
       <p class="team__title p-0 m-0 mt-3">Mary Gail</p>
