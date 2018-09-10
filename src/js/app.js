@@ -73,12 +73,11 @@ contactBtn.addEventListener('click', function() {
 
 
 
-// window.setInterval(refresh, 30000);
+window.setInterval(refresh, 30000);
 
-// function refresh() {
-//   console.log(555)
-//   weather.getWeather()
-// }
+function refresh() {
+  weather.getWeather()
+}
 
 
 
