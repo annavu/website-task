@@ -58,24 +58,26 @@ teamBtn.addEventListener('click', () => {
 })
 
 worksBtn.addEventListener('click', function() {
-  setTimeout(show(worksContent),6000)
+  setTimeout(() => {
+    show(worksContent)
+  },500)
 })
 
 contactBtn.addEventListener('click', function() {
   setTimeout(function() {
     show(contactContent)
-  },400)
+  },500)
 })
 
 
 
 
 
-// window.setInterval(refresh, 5000);
+// window.setInterval(refresh, 30000);
 
 // function refresh() {
 //   console.log(555)
-//   getWeather()
+//   weather.getWeather()
 // }
 
 
