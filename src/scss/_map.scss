@@ -1,6 +1,11 @@
 .section-map {
   display: none;
 
+
+.section-map--show{
+  display: block;
+}
+
   #map {
     margin: 0 auto;
     height: 500px;
