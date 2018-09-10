@@ -14,15 +14,13 @@ class Weather {
     xhr.onload = function() {
       if(this.status == 200) {
         const result = JSON.parse(xhr.responseText)
-       console.log(result);
         ui.showWeather(result)
+      }
     }
-  }
 
   xhr.send();
   
   }
-
 }
 
 export const weather = new Weather();
